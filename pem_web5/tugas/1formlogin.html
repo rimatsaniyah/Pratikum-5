@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Form Login </title>
+        </head>
+        <body>
+            <h2> Form Login</h2>
+
+            <!-- untuk membuat form -->
+            <form method="POST" action="1inc.php">
+
+                <!-- untuk membuat tabel -->
+                <table width="250" cellpadding="2" cellspacing="2">
+                    <tr>
+                        <!-- untuk menampilkan input text nama -->
+                        <td width="50"> Nama </td>
+                        <td> <input type="text" name="nama"> </td>
+                    </tr>
+                    <tr>
+                        <!-- untuk menampilkan input text email -->
+                        <td width="50"> Email </td>
+                        <td> <input type="text" name="email"> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <!-- untuk menampilkan button login -->
+                            <input type="submit" name="btnLogin" value="Login">
+                            <!-- untuk menampilkan button reset -->
+                            <input type="reset" name="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+    </html>

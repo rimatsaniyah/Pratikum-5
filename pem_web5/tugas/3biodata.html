@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title> Biodata </title>
+    </head>
+    <body>
+        <h2> Biodata </h2>
+        <form id="bio" name="bio" method="POST" action="3biodata.php">
+            
+            <!-- untuk menginput nama -->
+            <p>Nama <input type="type" name="nama" id="nama"/></p>
+            
+            <!-- untuk menginput tempat dan tanggal lahir -->
+            <p>Tempat, Tanggal Lahir <input type="type" name="ttl" id="ttl"/> </p>
+            
+            <!-- untuk memilih jenis kelamin dengan radio button -->
+            <p>Jenis Kelamin</p>
+                <p> <input type="radio" name="gender" value="Laki-laki"/> Pria
+                    <input type="radio" name="gender" value="Perempuan"/> Perempuan</p>
+
+            <!-- untuk memilih prodi -->
+            <p>Prodi <select name="prodi">
+                <option value="Sistem Informatika"> Sistem Informasi </option>
+                <option value="Informatika"> Informatika </option>
+                <option value="Data Sains"> Data Sains </option>
+            </select></p>   
+
+            <!-- untuk menambah motto dengan komentar -->
+            <p> Motto Hidup </p>
+            <br> <textarea name="motto"></textarea></br></p>
+
+            <!-- untuk menampilkan button login -->
+            <p><input type="submit" name="btnLogin" value="Login"></p>
+            <!-- untuk menampilkan button reset -->
+            <p><input type="reset" name="reset" value="Reset"></p>
+
+        </form>
+    </body>
+</html>
